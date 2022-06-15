@@ -1,3 +1,5 @@
+This is just me trying out MOM6 compilation and visualizations mostly with deployment scripts.
+
 | MOM6 source repo | MOM6 documentation | MOM6 coverage |
 |:----------------:|:------------------:|:-------------:|
 | [![Regression](https://github.com/NOAA-GFDL/MOM6/actions/workflows/regression.yml/badge.svg)](https://github.com/NOAA-GFDL/MOM6/actions/workflows/regression.yml) | [![Read The Docs Status](https://readthedocs.org/projects/mom6/badge/?version=main)](https://mom6.readthedocs.io/en/main/?badge=main) | [![codecov](https://codecov.io/gh/NOAA-GFDL/MOM6/branch/dev/gfdl/graph/badge.svg?token=uF8SVydCdp)](https://codecov.io/gh/NOAA-GFDL/MOM6) |
@@ -58,7 +60,7 @@ The repository policies (repository access, branches, procedures, ...) are the s
 
 # Disclaimer
 
-The United States Department of Commerce (DOC) GitHub project code is provided 
+The United States Department of Commerce (DOC) GitHub project code is provided
 on an ‘as is’ basis and the user assumes responsibility for its use. DOC has
 relinquished control of the information and no longer has responsibility to
 protect the integrity, confidentiality, or availability of the information. Any
