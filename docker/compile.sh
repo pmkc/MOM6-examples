@@ -34,8 +34,7 @@ popd
 mkdir -p build/intel/ocean_only/repro/
 (cd build/intel/ocean_only/repro/; rm -f path_names; \
   ../../../../src/mkmf/bin/list_paths -l ./ ../../../../src/MOM6/{config_src/infra/FMS1,config_src/memory/dynamic_symmetric,config_src/drivers/solo_driver,config_src/external,src/{*,*/*}}/ ; \
-  ../../../../src/mkmf/bin/mkmf -t ../../../../src/mkmf/templates/ncrc-intel.mk -o '-I../../shared/repro' -p MOM6 -l '-L../../shared/repro -lfms' path_names)
-mkdir -p build/intel/ice_ocean_SIS2/repro/
+  ../../../../src/mkmf/bin/mkmf -t $MAKEFILE -o '-I../../shared/repro' -p MOM6 -l '-L../../shared/repro -lfms' path_names)
 pushd build/intel/ocean_only/repro/
 rm -f path_names
 $LIST_PATHS -l ./ ../../../../src/MOM6/{config_src/infra/FMS1,config_src/memory/dynamic_symmetric,config_src/drivers/solo_driver,config_src/external,src/{*,*/*}}/
